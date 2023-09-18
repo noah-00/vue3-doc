@@ -3,7 +3,8 @@
 // import ListRendering from "./components/ListRendering.vue";
 // import Computed from "./components/Computed.vue";
 // import EventHnadling from "./components/EventHandling.vue";
-import Form from "./components/Form.vue";
+// import Form from "./components/Form.vue";
+import LifeCycleHook from "./components/LifeCycleHook.vue";
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import Form from "./components/Form.vue";
     <!-- <ListRendering /> -->
     <!-- <Computed /> -->
     <!-- <EventHnadling /> -->
-    <Form />
+    <!-- <Form /> -->
+    <LifeCycleHook />
   </div>
 </template>
