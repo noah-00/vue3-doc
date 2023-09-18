@@ -17,33 +17,33 @@ const myObject = reactive({
   <li v-for="(item, index) in items" :key="item.message">
     {{ index + "-" + item.message }}
   </li>
-  <!-- 分割代入が可能 -->
+  <!-- Split assignment is possible-->
   <li v-for="({ message }, index) in items" :key="message">
     {{ message + "-" + index }}
   </li>
 
-  <!-- オブジェクトをループ可能  -->
+  <!-- Objects can be looped  -->
   <li v-for="(value, index) in myObject" :key="index">
     {{ value }}
   </li>
 
-  <!-- オブジェクトをループ可能 key,valueを出力することも可能 -->
+  <!-- Objects can be looped. key,value can be output. -->
   <li v-for="(value, key) in myObject" :key="key">{{ key }}: {{ value }}</li>
   <li v-for="(value, key, index) in myObject" :key="index">
     {{ index }}. {{ key }}: {{ value }}
   </li>
 
-  <!-- 10回ループ 整数で回すことも可能 -->
+  <!-- 10 times loop Integer can also be turned -->
   <span v-for="n in 10" :key="n">{{ n }}</span>
 
-  <!-- v-for と　v-ifを同じところで使いたい場合 is like this -->
+  <!-- If you want to use v-for and v-if in the same place is like this -->
   <!-- <template v-for="todo in todos">
     <li v-if="!todo.isComplete">
       {{ todo.name }}
     </li>
   </template> -->
 
-  <!-- コンポーネントのループ -->
+  <!-- Component Loop -->
   <!-- <MyComponent
   v-for="(item, index) in items"
   :item="item"

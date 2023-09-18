@@ -6,7 +6,7 @@ const computedText = computed(() => {
   return inputText.value.length;
 });
 
-// Date.now() はリアクティブな依存ではないため、次の算出プロパティは二度と更新されないことを意味します:
+// Date.now() is not a reactive dependency, meaning that the following calculated properties will never be updated again:
 const now = computed(() => Date.now());
 </script>
 

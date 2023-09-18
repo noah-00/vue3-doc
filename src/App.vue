@@ -2,7 +2,8 @@
 // import TemplateLiteral from "./components/TemplateLiteral.vue";
 // import ListRendering from "./components/ListRendering.vue";
 // import Computed from "./components/Computed.vue";
-import EventHnadling from "./components/EventHandling.vue";
+// import EventHnadling from "./components/EventHandling.vue";
+import Form from "./components/Form.vue";
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import EventHnadling from "./components/EventHandling.vue";
     <!-- <TemplateLiteral /> -->
     <!-- <ListRendering /> -->
     <!-- <Computed /> -->
-    <EventHnadling />
+    <!-- <EventHnadling /> -->
+    <Form />
   </div>
 </template>
