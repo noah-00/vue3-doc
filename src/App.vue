@@ -6,6 +6,7 @@
 // import Form from "./components/Form.vue";
 // import LifeCycleHook from "./components/LifeCycleHook.vue"
 import Watch from "./components/Watch.vue";
+import Ref from "./components/Ref.vue";
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import Watch from "./components/Watch.vue";
     <!-- <EventHnadling /> -->
     <!-- <Form /> -->
     <!-- <LifeCycleHook /> -->
-    <Watch />
+    <!-- <Watch /> -->
+    <Ref />
   </div>
 </template>
