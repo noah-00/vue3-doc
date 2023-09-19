@@ -4,7 +4,8 @@
 // import Computed from "./components/Computed.vue";
 // import EventHnadling from "./components/EventHandling.vue";
 // import Form from "./components/Form.vue";
-import LifeCycleHook from "./components/LifeCycleHook.vue";
+// import LifeCycleHook from "./components/LifeCycleHook.vue"
+import Watch from "./components/Watch.vue";
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import LifeCycleHook from "./components/LifeCycleHook.vue";
     <!-- <Computed /> -->
     <!-- <EventHnadling /> -->
     <!-- <Form /> -->
-    <LifeCycleHook />
+    <!-- <LifeCycleHook /> -->
+    <Watch />
   </div>
 </template>
