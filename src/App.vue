@@ -21,5 +21,6 @@ import ComponentParent from "./components/ComponentParent.vue";
     <!-- <Watch /> -->
     <!-- <Ref /> -->
     <ComponentParent />
+    <!-- <ComponentGlobal /> -->
   </div>
 </template>

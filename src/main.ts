@@ -1,6 +1,10 @@
-import './assets/main.css'
+import "./assets/main.css";
+import { createApp } from "vue";
+import App from "./App.vue";
+import ComponentGlobal from "./components/ComponentGlobal.vue";
 
-import { createApp } from 'vue'
-import App from './App.vue'
+const app = createApp(App);
 
-createApp(App).mount('#app')
+app.component("ComponentGlobal", ComponentGlobal);
+
+app.mount("#app");

@@ -17,12 +17,23 @@ const tabs: Record<string, DefineComponent> = {
   Watch,
   Ref,
 };
+
+// v-bind props of object
+const post = {
+  title: "title from parent",
+  isShow: true,
+};
 </script>
 <template>
   <div>
     <h1>Here is a child component!</h1>
     <ComponentChild title="title from parent"> slot </ComponentChild>
-    <ComponentChild :isShow="false"> slot 2 </ComponentChild>
+    <ComponentChild :is-show="false"> slot 2 </ComponentChild>
+    <!-- ↓ is-show = true disabled = true-->
+    <ComponentChild is-show disabled> slot 3 </ComponentChild>
+
+    <!-- v-bind props of object :id="post.id" :title="post.title" -->
+    <ComponentChild v-bind="post"> slot 4 </ComponentChild>
   </div>
   <div>
     <ComponentList
