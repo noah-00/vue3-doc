@@ -5,8 +5,9 @@
 // import EventHnadling from "./components/EventHandling.vue";
 // import Form from "./components/Form.vue";
 // import LifeCycleHook from "./components/LifeCycleHook.vue"
-import Watch from "./components/Watch.vue";
-import Ref from "./components/Ref.vue";
+// import Watch from "./components/Watch.vue";
+// import Ref from "./components/Ref.vue";
+import ComponentParent from "./components/ComponentParent.vue";
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import Ref from "./components/Ref.vue";
     <!-- <Form /> -->
     <!-- <LifeCycleHook /> -->
     <!-- <Watch /> -->
-    <Ref />
+    <!-- <Ref /> -->
+    <ComponentParent />
   </div>
 </template>
