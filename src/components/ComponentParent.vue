@@ -2,6 +2,7 @@
 import { ref, type DefineComponent } from "vue";
 import ComponentChild from "./ComponentChild.vue";
 import ComponentList from "./ComponentList.vue";
+import ComponentEvent from "./ComponentEvent.vue";
 
 const posts = ref([
   { id: 1, title: "My journey with Vue" },
@@ -35,6 +36,7 @@ const post = {
     <!-- v-bind props of object :id="post.id" :title="post.title" -->
     <ComponentChild v-bind="post"> slot 4 </ComponentChild>
   </div>
+
   <div>
     <ComponentList
       v-for="post in posts"
@@ -43,6 +45,7 @@ const post = {
       @click-button="() => console.log(post.title)"
     />
   </div>
+
   <div id=":is">
     <button
       v-for="(_, tab) in tabs"
@@ -54,4 +57,10 @@ const post = {
     </button>
     <component :is="tabs[currentTab]" class="tab"></component>
   </div>
+
+  <!--               event                       -->
+  <ComponentEvent
+    @someEvent="() => console.log('someEvent')"
+    @increase-by="(n) => console.log(n)"
+  />
 </template>
