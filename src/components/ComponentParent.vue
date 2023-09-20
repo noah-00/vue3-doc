@@ -61,6 +61,6 @@ const post = {
   <!--               event                       -->
   <ComponentEvent
     @someEvent="() => console.log('someEvent')"
-    @increase-by="(n) => console.log(n)"
+    @increase-by="(n: number) => console.log(n)"
   />
 </template>
