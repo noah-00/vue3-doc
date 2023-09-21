@@ -8,7 +8,7 @@
 // import Watch from "./components/Watch.vue";
 // import Ref from "./components/Ref.vue";
 // import ComponentParent from "./components/ComponentParent.vue";
-import FallthroughAttributes from "./components/FallthroughAttributes.vue";
+import FallthroughAttributes from "./components/ComponentFallthroughAttributes.vue";
 </script>
 
 <template>
