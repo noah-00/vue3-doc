@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, type DefineComponent } from "vue";
+import { ref, type Ref as typeRef } from "vue";
 import ComponentList from "./ComponentList.vue";
 import ComponentEvent from "./ComponentEvent.vue";
 import ComponentVModel from "./ComponentVModel.vue";
@@ -12,10 +12,10 @@ const posts = ref([
 ]);
 
 // :is
-import Watch from "../Watch.vue";
-import Ref from "../Ref.vue";
-const currentTab = ref<"Watch" | "Ref">("Watch");
-const tabs: Record<string, DefineComponent> = {
+import Watch from "../Essentials/Watch.vue";
+import Ref from "../Essentials/Ref.vue";
+const currentTab: typeRef<"Watch" | "Ref"> = ref<"Watch" | "Ref">("Watch");
+const tabs = {
   Watch,
   Ref,
 };
