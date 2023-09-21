@@ -3,6 +3,7 @@ import { ref, type DefineComponent } from "vue";
 import ComponentChild from "./ComponentChild.vue";
 import ComponentList from "./ComponentList.vue";
 import ComponentEvent from "./ComponentEvent.vue";
+import ComponentVModel from "./ComponentVModel.vue";
 
 const posts = ref([
   { id: 1, title: "My journey with Vue" },
@@ -24,6 +25,10 @@ const post = {
   title: "title from parent",
   isShow: true,
 };
+
+// --------------------- component v-model ---------------------
+const modelValueFirst = ref("");
+const modelValueLast = ref("");
 </script>
 <template>
   <div>
@@ -63,4 +68,19 @@ const post = {
     @someEvent="() => console.log('someEvent')"
     @increase-by="(n: number) => console.log(n)"
   />
+
+  <!--             component v-model               -->
+  <div>
+    <!-- <ComponentVModel v-model="modelValue" /> -->
+    <ComponentVModel
+      v-model:first-name="modelValueFirst"
+      v-model:last-name="modelValueLast"
+    />
+    <p>modelValue: {{ modelValueFirst + modelValueLast }}</p>
+
+    <ComponentVModel
+      v-model:first-name.capitalize="modelValueFirst"
+      v-model:last-name="modelValueLast"
+    />
+  </div>
 </template>
