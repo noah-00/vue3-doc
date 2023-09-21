@@ -1,7 +1,7 @@
 import "./assets/main.css";
 import { createApp } from "vue";
 import App from "./App.vue";
-import ComponentGlobal from "./components/ComponentGlobal.vue";
+import ComponentGlobal from "./components/ComponentsInDepth/ComponentGlobal.vue";
 
 const app = createApp(App);
 

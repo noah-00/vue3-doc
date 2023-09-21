@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { ref, type DefineComponent } from "vue";
-import ComponentChild from "./ComponentChild.vue";
 import ComponentList from "./ComponentList.vue";
 import ComponentEvent from "./ComponentEvent.vue";
 import ComponentVModel from "./ComponentVModel.vue";
+import ComponentChild from "./ComponentChild.vue";
 
 const posts = ref([
   { id: 1, title: "My journey with Vue" },
@@ -12,8 +12,8 @@ const posts = ref([
 ]);
 
 // :is
-import Watch from "./Watch.vue";
-import Ref from "./Ref.vue";
+import Watch from "../Watch.vue";
+import Ref from "../Ref.vue";
 const currentTab = ref<"Watch" | "Ref">("Watch");
 const tabs: Record<string, DefineComponent> = {
   Watch,
