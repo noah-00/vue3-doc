@@ -7,7 +7,8 @@
 // import LifeCycleHook from "./components/LifeCycleHook.vue"
 // import Watch from "./components/Watch.vue";
 // import Ref from "./components/Ref.vue";
-import ComponentParent from "./components/ComponentParent.vue";
+// import ComponentParent from "./components/ComponentParent.vue";
+import FallthroughAttributes from "./components/FallthroughAttributes.vue";
 </script>
 
 <template>
@@ -20,7 +21,12 @@ import ComponentParent from "./components/ComponentParent.vue";
     <!-- <LifeCycleHook /> -->
     <!-- <Watch /> -->
     <!-- <Ref /> -->
-    <ComponentParent />
+    <!-- <ComponentParent /> -->
     <!-- <ComponentGlobal /> -->
+    <FallthroughAttributes
+      class="large"
+      id="id"
+      @click="console.log('clicked click me')"
+    />
   </div>
 </template>
