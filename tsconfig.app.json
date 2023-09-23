@@ -5,7 +5,8 @@
     "src/**/*",
     "src/**/*.vue",
     "src/**/*.ts",
-    "src/reuse/composables/**/*"
+    "src/reuse/composables/**/*",
+    "src/components/**/*"
   ],
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
