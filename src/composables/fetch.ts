@@ -1,0 +1,17 @@
+import { ref } from "vue";
+
+export function useFetch(url: string) {
+  const data = ref(null);
+  const error = ref(null);
+
+  fetch(url)
+    .then((res) => res.json())
+    .then((json) => (data.value = json))
+    .catch((err) => (error.value = err));
+
+  return { data, error };
+}
+
+// import { useFetch } from "@/composables/fetch";
+// const { data, error } = useFetch("https://jsonplaceholder.typicode.com/posts");
+// console.log("data", data);
