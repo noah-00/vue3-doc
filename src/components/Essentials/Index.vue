@@ -9,7 +9,8 @@
 // import Ref from "@/components/Essentials/Ref.vue";
 // import ComponentParent from "@/components/ComponentsInDepth/ComponentParent.vue";
 // import FallthroughAttributes from "@/components/ComponentsInDepth/ComponentFallthroughAttributes.vue";
-import ShallowRef from "./ShallowRef.vue";
+// import ShallowRef from "./ShallowRef.vue";
+import Directives from "./Directives.vue";
 </script>
 
 <template>
@@ -28,5 +29,6 @@ import ShallowRef from "./ShallowRef.vue";
       id="id"
       @click="console.log('clicked click me')"
     /> -->
-  <ShallowRef />
+  <!-- <ShallowRef /> -->
+  <Directives />
 </template>
