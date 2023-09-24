@@ -12,7 +12,7 @@ onErrorCaptured((err) => {
 </script>
 
 <template>
-  <div v-if="error">
+  <!-- <div v-if="error">
     {{ error }}
   </div>
   <Suspense>
@@ -20,5 +20,5 @@ onErrorCaptured((err) => {
       <FetchComponent />
     </template>
     <template #fallback> Loading... </template>
-  </Suspense>
+  </Suspense> -->
 </template>
