@@ -1,8 +1,16 @@
 <script setup lang="ts">
+// -------------------- component event emit -------------------
 defineEmits<{
   (e: "someEvent"): void;
   (e: "increaseBy", n: number): void;
 }>();
+
+// ---------------------------- or -----------------------------
+
+// defineEmits<{
+//   someEvent: [];
+//   increaseBy: [n: number];
+// }>();
 </script>
 
 <template>

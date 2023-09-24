@@ -8,6 +8,9 @@ const computedText = computed(() => {
 
 // Date.now() is not a reactive dependency, meaning that the following calculated properties will never be updated again:
 const now = computed(() => Date.now());
+
+// ------------------ type script ------------------
+const nowTs = computed<number>(() => Date.now());
 </script>
 
 <template>

@@ -26,19 +26,17 @@ const count = ref(0);
 //   isShow?: boolean;
 //   disabled?: Boolean;
 // }>();
-// ------- or with default value --------------
-withDefaults(
-  defineProps<{
-    title?: string;
-    isShow?: boolean;
-    disabled?: boolean;
-  }>(),
-  {
-    title: "Default Title",
-    isShow: true,
-    disabled: false,
-  }
-);
+// ------- or with default value and Type --------------
+type Props = {
+  title?: string;
+  isShow?: boolean;
+  disabled?: boolean;
+};
+withDefaults(defineProps<Props>(), {
+  title: "Default Title",
+  isShow: true,
+  disabled: false,
+});
 </script>
 
 <template>

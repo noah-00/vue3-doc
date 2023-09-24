@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
+import { ref, onMounted, type Ref } from "vue";
 
 const input = ref<HTMLInputElement | null>(null);
 onMounted(() => {
@@ -9,6 +9,13 @@ onMounted(() => {
 
 const list = ref([1, 2, 3]);
 const itemRefs = ref([]);
+
+// ------------------ type script ------------------
+
+// Ref<number | undefined>
+const n = ref<number>();
+const listTs: Ref<number[]> = ref([1, 2, 3]);
+const itemRefsTs: Ref<string[]> = ref([]);
 </script>
 
 <template>

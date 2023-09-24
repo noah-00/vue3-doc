@@ -4,16 +4,16 @@
 // -------------------provide / inject----------------------------
 // ComponentProvideInjectDeepChild.vue
 import ComponentProvideInjectParent from "@/components/ComponentsInDepth/ComponentProvideInjectParent.vue";
-import { ref, provide, readonly } from "vue";
+import { ref, provide } from "vue";
 import { CountInjectKey } from "@/utils/Keys";
-const count = ref(0);
-// provide("count", count);
+const count = ref<number>(0);
+provide(CountInjectKey, count);
 
 // readonly() is a function that returns a readonly proxy of the original object.
 // provide("count", readonly(count));
 
 // it is better to use a symbol as the key
-provide(CountInjectKey, readonly(count));
+// provide(CountInjectKey, readonly(count));
 </script>
 
 <template>
@@ -52,5 +52,5 @@ provide(CountInjectKey, readonly(count));
     </ComponentSlot> -->
 
   <!-------------------Provide / Inject------------------------>
-  <!-- <ComponentProvideInjectParent /> -->
+  <ComponentProvideInjectParent />
 </template>
