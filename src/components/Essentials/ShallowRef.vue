@@ -10,7 +10,7 @@
 </template>
 
 <script setup lang="ts">
-import { shallowRef, watchEffect } from "vue";
+import { shallowRef, triggerRef, watchEffect } from "vue";
 
 type Example = {
   id: number;
@@ -30,9 +30,12 @@ watchEffect(() => {
 // watchEffect is not triggered when the value of an object inside the array changes
 examples.value[0].name = "Updated Example 1";
 
+// triggerRef is used to trigger a watchEffect
+triggerRef(examples); // console.log → examples contain the 3 objects
+
 // watchEffect is triggered when the value of the array changes
 examples.value = [
   { id: 4, name: "Example 4" },
   { id: 5, name: "Example 5" },
-];
+]; // console.log → examples contain the 2 objects
 </script>
