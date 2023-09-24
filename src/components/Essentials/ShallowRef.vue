@@ -10,7 +10,13 @@
 </template>
 
 <script setup lang="ts">
-import { shallowRef, triggerRef, watchEffect } from "vue";
+import {
+  isReadonly,
+  shallowReadonly,
+  shallowRef,
+  triggerRef,
+  watchEffect,
+} from "vue";
 
 type Example = {
   id: number;
@@ -38,4 +44,22 @@ examples.value = [
   { id: 4, name: "Example 4" },
   { id: 5, name: "Example 5" },
 ]; // console.log → examples contain the 2 objects
+
+// ---------------------- shallowReadonly ----------------------
+
+const state = shallowReadonly({
+  foo: 1,
+  nested: {
+    bar: 2,
+  },
+});
+
+// it is not reactive
+// state.foo++;  error
+
+// it is reactive
+isReadonly(state.nested); // false
+
+// it works
+state.nested.bar++;
 </script>
