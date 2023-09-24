@@ -42,13 +42,17 @@ watch(
   },
   { immediate: true }
 );
+
 // watchEffect ↓ ↓ ↓
-watchEffect(async () => {
+const stop = watchEffect(async () => {
   const response = await fetch(
     `https://jsonplaceholder.typicode.com/todos/${todoId.value}`
   );
   data.value = await response.json();
 });
+
+// If you want to stop watching, you can call the stop function.
+// stop()
 </script>
 
 <template>
