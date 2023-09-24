@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, type Ref } from "vue";
+import { ref, onMounted, type Ref, isRef } from "vue";
 
 const input = ref<HTMLInputElement | null>(null);
 onMounted(() => {
@@ -16,6 +16,12 @@ const itemRefs = ref([]);
 const n = ref<number>();
 const listTs: Ref<number[]> = ref([1, 2, 3]);
 const itemRefsTs: Ref<string[]> = ref([]);
+
+// ------------------ isRef() unref() ----------------------
+
+const num = ref<number>(0);
+const isNumRef = isRef(num);
+console.log(isNumRef); // true
 </script>
 
 <template>

@@ -7,7 +7,7 @@ import SuspenseIndex from "@/components/Suspense/index.vue";
 <template>
   <div>
     <EssentialsIndex />
-    <ComponentsInDepthIndex />
-    <SuspenseIndex />
+    <!-- <ComponentsInDepthIndex />
+    <SuspenseIndex /> -->
   </div>
 </template>
