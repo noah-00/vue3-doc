@@ -1,4 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+type SlotsProps = {
+  default?: (props: { text: string; count: number }) => any;
+};
+defineSlots<SlotsProps>();
+</script>
 
 <template>
   <!--------------------named slot --------------------->
