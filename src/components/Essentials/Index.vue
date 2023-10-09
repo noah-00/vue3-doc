@@ -10,7 +10,8 @@
 // import ComponentParent from "@/components/ComponentsInDepth/ComponentParent.vue";
 // import FallthroughAttributes from "@/components/ComponentsInDepth/ComponentFallthroughAttributes.vue";
 // import ShallowRef from "./ShallowRef.vue";
-import Directives from "./Directives.vue";
+// import Directives from "./Directives.vue";
+import RefOrReactive from "./RefOrReactive.vue";
 </script>
 
 <template>
@@ -30,5 +31,6 @@ import Directives from "./Directives.vue";
       @click="console.log('clicked click me')"
     /> -->
   <!-- <ShallowRef /> -->
+  <RefOrReactive />
   <Directives />
 </template>

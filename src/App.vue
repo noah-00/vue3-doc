@@ -7,9 +7,9 @@ import newFeature33 from "@/components/NewFeature3.3/index.vue";
 
 <template>
   <div>
-    <!-- <EssentialsIndex />
-    <ComponentsInDepthIndex />
-    <SuspenseIndex /> -->
-    <newFeature33 />
+    <EssentialsIndex />
+    <!-- <ComponentsInDepthIndex /> -->
+    <!-- <SuspenseIndex /> -->
+    <!-- <newFeature33 /> -->
   </div>
 </template>
