@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import UseMouse from "./useMouse.vue";
+import UseMouse from "./UseMouse.vue";
 </script>
 
 <template>
