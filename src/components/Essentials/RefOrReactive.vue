@@ -175,3 +175,41 @@ const { name, type, level } = toRefs(pokemon);
   <p>レベル: {{ level }}</p>
   <button @click="level++">Level up</button>
 </template> -->
+
+<!-- <script setup lang="ts">
+import { ref } from "vue";
+
+const pokemon = ref({
+  name: "ピカチュウ",
+  level: 20,
+});
+
+const changePokemon = () => {
+  pokemon.value = { name: "カメックス", level: 40 };
+};
+</script>
+
+<template>
+  <p>名前: {{ pokemon.name }}</p>
+  <p>レベル: {{ pokemon.level }}</p>
+  <button @click="changePokemon()">カメックスと交換</button>
+</template> -->
+
+<!-- <script setup lang="ts">
+import { reactive } from "vue";
+
+const pokemon = reactive({
+  name: "ピカチュウ",
+  level: 20,
+});
+
+const changePokemon = () => {
+  // pokemon = { name: "カメックス", level: 40 };
+};
+</script>
+
+<template>
+  <p>名前: {{ pokemon.name }}</p>
+  <p>レベル: {{ pokemon.level }}</p>
+  <button @click="changePokemon()">カメックスと交換</button>
+</template> -->

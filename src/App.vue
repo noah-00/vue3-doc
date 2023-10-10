@@ -8,10 +8,10 @@ import VueUse from "@/components/VueUse/index.vue";
 
 <template>
   <div>
-    <!-- <EssentialsIndex /> -->
+    <EssentialsIndex />
     <!-- <ComponentsInDepthIndex /> -->
     <!-- <SuspenseIndex /> -->
     <!-- <newFeature33 /> -->
-    <VueUse />
+    <!-- <VueUse /> -->
   </div>
 </template>
