@@ -4,6 +4,7 @@ import UseActiveElement from "./UseActiveElement.vue";
 import UseDocumentVisibility from "./UseDocumentVisibility.vue";
 import UseDraggable from "./UseDraggable.vue";
 import UseDropZone from "./UseDropZone.vue";
+import UseElementBounding from "./UseElementBounding.vue";
 </script>
 
 <template>
@@ -12,5 +13,6 @@ import UseDropZone from "./UseDropZone.vue";
   <!-- <UseActiveElement /> -->
   <!-- <UseDocumentVisibility /> -->
   <!-- <UseDraggable /> -->
-  <UseDropZone />
+  <!-- <UseDropZone /> -->
+  <UseElementBounding />
 </template>
