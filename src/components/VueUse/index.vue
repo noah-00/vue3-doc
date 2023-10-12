@@ -3,6 +3,7 @@ import UseMouse from "./UseMouse.vue";
 import UseActiveElement from "./UseActiveElement.vue";
 import UseDocumentVisibility from "./UseDocumentVisibility.vue";
 import UseDraggable from "./UseDraggable.vue";
+import UseDropZone from "./UseDropZone.vue";
 </script>
 
 <template>
@@ -10,5 +11,6 @@ import UseDraggable from "./UseDraggable.vue";
   <!-- <UseMouse /> -->
   <!-- <UseActiveElement /> -->
   <!-- <UseDocumentVisibility /> -->
-  <UseDraggable />
+  <!-- <UseDraggable /> -->
+  <UseDropZone />
 </template>
