@@ -13,6 +13,6 @@ import UseElementBounding from "./UseElementBounding.vue";
   <!-- <UseActiveElement /> -->
   <!-- <UseDocumentVisibility /> -->
   <!-- <UseDraggable /> -->
-  <!-- <UseDropZone /> -->
-  <UseElementBounding />
+  <UseDropZone />
+  <!-- <UseElementBounding /> -->
 </template>
