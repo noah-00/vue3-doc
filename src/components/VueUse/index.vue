@@ -7,6 +7,7 @@ import UseDropZone from "./UseDropZone.vue";
 import UseElementBounding from "./UseElementBounding.vue";
 import UseElementSize from "./UseElementSize.vue";
 import UseElementVisibility from "./UseElementVisibility.vue";
+import UseMouseInElement from "./UseMouseInElement.vue";
 </script>
 
 <template>
@@ -18,5 +19,6 @@ import UseElementVisibility from "./UseElementVisibility.vue";
   <!-- <UseDropZone /> -->
   <!-- <UseElementBounding /> -->
   <!-- <UseElementSize /> -->
-  <UseElementVisibility />
+  <!-- <UseElementVisibility /> -->
+  <UseMouseInElement />
 </template>
