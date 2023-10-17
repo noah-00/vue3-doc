@@ -9,6 +9,7 @@ import UseElementSize from "./UseElementSize.vue";
 import UseElementVisibility from "./UseElementVisibility.vue";
 import UseMouseInElement from "./UseMouseInElement.vue";
 import UseMutationObserver from "./UseMutationObserver.vue";
+import UseWindowFocus from "./UseWindowFocus.vue";
 </script>
 
 <template>
@@ -22,5 +23,6 @@ import UseMutationObserver from "./UseMutationObserver.vue";
   <!-- <UseElementSize /> -->
   <!-- <UseElementVisibility /> -->
   <!-- <UseMouseInElement /> -->
-  <UseMutationObserver />
+  <!-- <UseMutationObserver /> -->
+  <UseWindowFocus />
 </template>
