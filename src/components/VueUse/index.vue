@@ -8,6 +8,7 @@ import UseElementBounding from "./UseElementBounding.vue";
 import UseElementSize from "./UseElementSize.vue";
 import UseElementVisibility from "./UseElementVisibility.vue";
 import UseMouseInElement from "./UseMouseInElement.vue";
+import UseMutationObserver from "./UseMutationObserver.vue";
 </script>
 
 <template>
@@ -20,5 +21,6 @@ import UseMouseInElement from "./UseMouseInElement.vue";
   <!-- <UseElementBounding /> -->
   <!-- <UseElementSize /> -->
   <!-- <UseElementVisibility /> -->
-  <UseMouseInElement />
+  <!-- <UseMouseInElement /> -->
+  <UseMutationObserver />
 </template>
