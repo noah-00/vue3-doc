@@ -12,6 +12,7 @@ import UseMutationObserver from "./Elements/UseMutationObserver.vue";
 import UseWindowFocus from "./Elements/UseWindowFocus.vue";
 
 import UseClipboard from "./Browser/UseClipboard.vue";
+import UseFileDialog from "./Browser/UseFileDialog.vue";
 </script>
 
 <template>
@@ -27,5 +28,7 @@ import UseClipboard from "./Browser/UseClipboard.vue";
   <!-- <UseMouseInElement /> -->
   <!-- <UseMutationObserver /> -->
   <!-- <UseWindowFocus /> -->
-  <UseClipboard />
+
+  <!-- <UseClipboard /> -->
+  <UseFileDialog />
 </template>
