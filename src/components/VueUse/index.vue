@@ -13,6 +13,7 @@ import UseWindowFocus from "./Elements/UseWindowFocus.vue";
 
 import UseClipboard from "./Browser/UseClipboard.vue";
 import UseFileDialog from "./Browser/UseFileDialog.vue";
+import usePreferredLanguages from "./Browser/UsePreferredLanguages.vue";
 </script>
 
 <template>
@@ -30,5 +31,6 @@ import UseFileDialog from "./Browser/UseFileDialog.vue";
   <!-- <UseWindowFocus /> -->
 
   <!-- <UseClipboard /> -->
-  <UseFileDialog />
+  <!-- <UseFileDialog /> -->
+  <usePreferredLanguages />
 </template>
