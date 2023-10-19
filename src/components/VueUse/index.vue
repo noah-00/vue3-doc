@@ -14,6 +14,7 @@ import UseWindowFocus from "./Elements/UseWindowFocus.vue";
 import UseClipboard from "./Browser/UseClipboard.vue";
 import UseFileDialog from "./Browser/UseFileDialog.vue";
 import usePreferredLanguages from "./Browser/UsePreferredLanguages.vue";
+import useTextareaAutosize from "./Browser/UseTextareaAutosize.vue";
 </script>
 
 <template>
@@ -32,5 +33,6 @@ import usePreferredLanguages from "./Browser/UsePreferredLanguages.vue";
 
   <!-- <UseClipboard /> -->
   <!-- <UseFileDialog /> -->
-  <usePreferredLanguages />
+  <!-- <usePreferredLanguages /> -->
+  <useTextareaAutosize />
 </template>
