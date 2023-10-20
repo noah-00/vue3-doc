@@ -16,6 +16,8 @@ import UseFileDialog from "./Browser/UseFileDialog.vue";
 import UsePreferredLanguages from "./Browser/UsePreferredLanguages.vue";
 import UseTextareaAutosize from "./Browser/UseTextareaAutosize.vue";
 import UseUrlSearchParams from "./Browser/UseUrlSearchParams.vue";
+
+import OnClickOutside from "./Sensors/OnClickOutside.vue";
 </script>
 
 <template>
@@ -36,5 +38,7 @@ import UseUrlSearchParams from "./Browser/UseUrlSearchParams.vue";
   <!-- <UseFileDialog /> -->
   <!-- <UsePreferredLanguages /> -->
   <!-- <UseTextareaAutosize /> -->
-  <UseUrlSearchParams />
+  <!-- <UseUrlSearchParams /> -->
+
+  <OnClickOutside />
 </template>
