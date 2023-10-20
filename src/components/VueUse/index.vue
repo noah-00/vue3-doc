@@ -19,6 +19,7 @@ import UseUrlSearchParams from "./Browser/UseUrlSearchParams.vue";
 
 import OnClickOutside from "./Sensors/OnClickOutside.vue";
 import OnKeyStroke from "./Sensors/OnKeyStroke.vue";
+import OnLongPress from "./Sensors/OnLongPress.vue";
 </script>
 
 <template>
@@ -42,5 +43,6 @@ import OnKeyStroke from "./Sensors/OnKeyStroke.vue";
   <!-- <UseUrlSearchParams /> -->
 
   <!-- <OnClickOutside /> -->
-  <OnKeyStroke />
+  <!-- <OnKeyStroke /> -->
+  <OnLongPress />
 </template>
