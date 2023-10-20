@@ -18,6 +18,7 @@ import UseTextareaAutosize from "./Browser/UseTextareaAutosize.vue";
 import UseUrlSearchParams from "./Browser/UseUrlSearchParams.vue";
 
 import OnClickOutside from "./Sensors/OnClickOutside.vue";
+import OnKeyStroke from "./Sensors/OnKeyStroke.vue";
 </script>
 
 <template>
@@ -40,5 +41,6 @@ import OnClickOutside from "./Sensors/OnClickOutside.vue";
   <!-- <UseTextareaAutosize /> -->
   <!-- <UseUrlSearchParams /> -->
 
-  <OnClickOutside />
+  <!-- <OnClickOutside /> -->
+  <OnKeyStroke />
 </template>
