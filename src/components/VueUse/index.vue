@@ -22,6 +22,7 @@ import OnKeyStroke from "./Sensors/OnKeyStroke.vue";
 import OnLongPress from "./Sensors/OnLongPress.vue";
 import UseDisplayMedia from "./Sensors/UseDisplayMedia.vue";
 import UseElementHover from "./Sensors/UseElementHover.vue";
+import UseFocus from "./Sensors/UseFocus.vue";
 </script>
 
 <template>
@@ -48,5 +49,6 @@ import UseElementHover from "./Sensors/UseElementHover.vue";
   <!-- <OnKeyStroke /> -->
   <!-- <OnLongPress /> -->
   <!-- <UseDisplayMedia /> -->
-  <UseElementHover />
+  <!-- <UseElementHover /> -->
+  <UseFocus />
 </template>
