@@ -20,6 +20,7 @@ import UseUrlSearchParams from "./Browser/UseUrlSearchParams.vue";
 import OnClickOutside from "./Sensors/OnClickOutside.vue";
 import OnKeyStroke from "./Sensors/OnKeyStroke.vue";
 import OnLongPress from "./Sensors/OnLongPress.vue";
+import UseDisplayMedia from "./Sensors/UseDisplayMedia.vue";
 </script>
 
 <template>
@@ -44,5 +45,6 @@ import OnLongPress from "./Sensors/OnLongPress.vue";
 
   <!-- <OnClickOutside /> -->
   <!-- <OnKeyStroke /> -->
-  <OnLongPress />
+  <!-- <OnLongPress /> -->
+  <UseDisplayMedia />
 </template>
