@@ -23,6 +23,7 @@ import OnLongPress from "./Sensors/OnLongPress.vue";
 import UseDisplayMedia from "./Sensors/UseDisplayMedia.vue";
 import UseElementHover from "./Sensors/UseElementHover.vue";
 import UseFocus from "./Sensors/UseFocus.vue";
+import UseFocusWithin from "./Sensors/UseFocusWithin.vue";
 
 import UseVModel from "./Component/useVModel/Parent.vue";
 import UseVModels from "./Component/useVModels/Parent.vue";
@@ -54,7 +55,8 @@ import UseVModels from "./Component/useVModels/Parent.vue";
   <!-- <UseDisplayMedia /> -->
   <!-- <UseElementHover /> -->
   <!-- <UseFocus /> -->
+  <UseFocusWithin />
 
   <!-- <UseVModel /> -->
-  <UseVModels />
+  <!-- <UseVModels /> -->
 </template>
