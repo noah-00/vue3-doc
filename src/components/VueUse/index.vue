@@ -21,6 +21,7 @@ import OnClickOutside from "./Sensors/OnClickOutside.vue";
 import OnKeyStroke from "./Sensors/OnKeyStroke.vue";
 import OnLongPress from "./Sensors/OnLongPress.vue";
 import UseDisplayMedia from "./Sensors/UseDisplayMedia.vue";
+import UseElementHover from "./Sensors/UseElementHover.vue";
 </script>
 
 <template>
@@ -46,5 +47,6 @@ import UseDisplayMedia from "./Sensors/UseDisplayMedia.vue";
   <!-- <OnClickOutside /> -->
   <!-- <OnKeyStroke /> -->
   <!-- <OnLongPress /> -->
-  <UseDisplayMedia />
+  <!-- <UseDisplayMedia /> -->
+  <UseElementHover />
 </template>
