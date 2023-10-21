@@ -24,6 +24,7 @@ import UseDisplayMedia from "./Sensors/UseDisplayMedia.vue";
 import UseElementHover from "./Sensors/UseElementHover.vue";
 import UseFocus from "./Sensors/UseFocus.vue";
 import UseFocusWithin from "./Sensors/UseFocusWithin.vue";
+import UseInfiniteScroll from "./Sensors/UseInfiniteScroll.vue";
 
 import UseVModel from "./Component/useVModel/Parent.vue";
 import UseVModels from "./Component/useVModels/Parent.vue";
@@ -55,7 +56,8 @@ import UseVModels from "./Component/useVModels/Parent.vue";
   <!-- <UseDisplayMedia /> -->
   <!-- <UseElementHover /> -->
   <!-- <UseFocus /> -->
-  <UseFocusWithin />
+  <!-- <UseFocusWithin /> -->
+  <UseInfiniteScroll />
 
   <!-- <UseVModel /> -->
   <!-- <UseVModels /> -->
