@@ -25,6 +25,7 @@ import UseElementHover from "./Sensors/UseElementHover.vue";
 import UseFocus from "./Sensors/UseFocus.vue";
 
 import UseVModel from "./Component/useVModel/Parent.vue";
+import UseVModels from "./Component/useVModels/Parent.vue";
 </script>
 
 <template>
@@ -54,5 +55,6 @@ import UseVModel from "./Component/useVModel/Parent.vue";
   <!-- <UseElementHover /> -->
   <!-- <UseFocus /> -->
 
-  <UseVModel />
+  <!-- <UseVModel /> -->
+  <UseVModels />
 </template>
