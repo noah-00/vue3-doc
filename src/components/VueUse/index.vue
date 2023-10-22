@@ -27,6 +27,7 @@ import UseFocusWithin from "./Sensors/UseFocusWithin.vue";
 import UseInfiniteScroll from "./Sensors/UseInfiniteScroll.vue";
 import UseMagicKeys from "./Sensors/UseMagicKeys.vue";
 import UseNavigatorLanguage from "./Sensors/UseNavigatorLanguage.vue";
+import UseOnline from "./Sensors/UseOnline.vue";
 
 import UseVModel from "./Component/useVModel/Parent.vue";
 import UseVModels from "./Component/useVModels/Parent.vue";
@@ -61,7 +62,8 @@ import UseVModels from "./Component/useVModels/Parent.vue";
   <!-- <UseFocusWithin /> -->
   <!-- <UseInfiniteScroll /> -->
   <!-- <UseMagicKeys /> -->
-  <UseNavigatorLanguage />
+  <!-- <UseNavigatorLanguage /> -->
+  <UseOnline />
 
   <!-- <UseVModel /> -->
   <!-- <UseVModels /> -->
