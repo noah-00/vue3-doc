@@ -25,6 +25,7 @@ import UseElementHover from "./Sensors/UseElementHover.vue";
 import UseFocus from "./Sensors/UseFocus.vue";
 import UseFocusWithin from "./Sensors/UseFocusWithin.vue";
 import UseInfiniteScroll from "./Sensors/UseInfiniteScroll.vue";
+import UseMagicKeys from "./Sensors/UseMagicKeys.vue";
 
 import UseVModel from "./Component/useVModel/Parent.vue";
 import UseVModels from "./Component/useVModels/Parent.vue";
@@ -57,7 +58,8 @@ import UseVModels from "./Component/useVModels/Parent.vue";
   <!-- <UseElementHover /> -->
   <!-- <UseFocus /> -->
   <!-- <UseFocusWithin /> -->
-  <UseInfiniteScroll />
+  <!-- <UseInfiniteScroll /> -->
+  <UseMagicKeys />
 
   <!-- <UseVModel /> -->
   <!-- <UseVModels /> -->
