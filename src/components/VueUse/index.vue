@@ -28,6 +28,7 @@ import UseInfiniteScroll from "./Sensors/UseInfiniteScroll.vue";
 import UseMagicKeys from "./Sensors/UseMagicKeys.vue";
 import UseNavigatorLanguage from "./Sensors/UseNavigatorLanguage.vue";
 import UseOnline from "./Sensors/UseOnline.vue";
+import UsePageLeave from "./Sensors/UsePageLeave.vue";
 
 import UseVModel from "./Component/useVModel/Parent.vue";
 import UseVModels from "./Component/useVModels/Parent.vue";
@@ -63,7 +64,8 @@ import UseVModels from "./Component/useVModels/Parent.vue";
   <!-- <UseInfiniteScroll /> -->
   <!-- <UseMagicKeys /> -->
   <!-- <UseNavigatorLanguage /> -->
-  <UseOnline />
+  <!-- <UseOnline /> -->
+  <UsePageLeave />
 
   <!-- <UseVModel /> -->
   <!-- <UseVModels /> -->
