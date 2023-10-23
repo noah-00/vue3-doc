@@ -29,6 +29,7 @@ import UseMagicKeys from "./Sensors/UseMagicKeys.vue";
 import UseNavigatorLanguage from "./Sensors/UseNavigatorLanguage.vue";
 import UseOnline from "./Sensors/UseOnline.vue";
 import UsePageLeave from "./Sensors/UsePageLeave.vue";
+import UsePointerSwipe from "./Sensors/UsePointerSwipe.vue";
 
 import UseVModel from "./Component/useVModel/Parent.vue";
 import UseVModels from "./Component/useVModels/Parent.vue";
@@ -65,7 +66,8 @@ import UseVModels from "./Component/useVModels/Parent.vue";
   <!-- <UseMagicKeys /> -->
   <!-- <UseNavigatorLanguage /> -->
   <!-- <UseOnline /> -->
-  <UsePageLeave />
+  <!-- <UsePageLeave /> -->
+  <UsePointerSwipe />
 
   <!-- <UseVModel /> -->
   <!-- <UseVModels /> -->
