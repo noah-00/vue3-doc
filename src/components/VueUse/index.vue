@@ -32,6 +32,7 @@ import UsePageLeave from "./Sensors/UsePageLeave.vue";
 import UsePointerSwipe from "./Sensors/UsePointerSwipe.vue";
 import UseSpeechSynthesis from "./Sensors/UseSpeechSynthesis.vue";
 import UseTextSelection from "./Sensors/UseTextSelection.vue";
+import UseUserMedia from "./Sensors/UseUserMedia.vue";
 
 import UseVModel from "./Component/useVModel/Parent.vue";
 import UseVModels from "./Component/useVModels/Parent.vue";
@@ -71,7 +72,8 @@ import UseVModels from "./Component/useVModels/Parent.vue";
   <!-- <UsePageLeave /> -->
   <!-- <UsePointerSwipe /> -->
   <!-- <UseSpeechSynthesis /> -->
-  <UseTextSelection />
+  <!-- <UseTextSelection /> -->
+  <UseUserMedia />
 
   <!-- <UseVModel /> -->
   <!-- <UseVModels /> -->
