@@ -30,6 +30,7 @@ import UseNavigatorLanguage from "./Sensors/UseNavigatorLanguage.vue";
 import UseOnline from "./Sensors/UseOnline.vue";
 import UsePageLeave from "./Sensors/UsePageLeave.vue";
 import UsePointerSwipe from "./Sensors/UsePointerSwipe.vue";
+import UseSpeechSynthesis from "./Sensors/UseSpeechSynthesis.vue";
 
 import UseVModel from "./Component/useVModel/Parent.vue";
 import UseVModels from "./Component/useVModels/Parent.vue";
@@ -67,7 +68,8 @@ import UseVModels from "./Component/useVModels/Parent.vue";
   <!-- <UseNavigatorLanguage /> -->
   <!-- <UseOnline /> -->
   <!-- <UsePageLeave /> -->
-  <UsePointerSwipe />
+  <!-- <UsePointerSwipe /> -->
+  <UseSpeechSynthesis />
 
   <!-- <UseVModel /> -->
   <!-- <UseVModels /> -->
