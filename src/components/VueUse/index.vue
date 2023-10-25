@@ -34,6 +34,8 @@ import UseSpeechSynthesis from "./Sensors/UseSpeechSynthesis.vue";
 import UseTextSelection from "./Sensors/UseTextSelection.vue";
 import UseUserMedia from "./Sensors/UseUserMedia.vue";
 
+import UseAnimate from "./Animation/UseAnimate.vue";
+
 import UseVModel from "./Component/useVModel/Parent.vue";
 import UseVModels from "./Component/useVModels/Parent.vue";
 </script>
@@ -73,7 +75,9 @@ import UseVModels from "./Component/useVModels/Parent.vue";
   <!-- <UsePointerSwipe /> -->
   <!-- <UseSpeechSynthesis /> -->
   <!-- <UseTextSelection /> -->
-  <UseUserMedia />
+  <!-- <UseUserMedia /> -->
+
+  <UseAnimate />
 
   <!-- <UseVModel /> -->
   <!-- <UseVModels /> -->
