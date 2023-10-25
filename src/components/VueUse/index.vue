@@ -35,6 +35,8 @@ import UseTextSelection from "./Sensors/UseTextSelection.vue";
 import UseUserMedia from "./Sensors/UseUserMedia.vue";
 
 import UseAnimate from "./Animation/UseAnimate.vue";
+import UseInterval from "./Animation/UseInterval.vue";
+import UseIntervalFn from "./Animation/UseIntervalFn.vue";
 
 import UseVModel from "./Component/useVModel/Parent.vue";
 import UseVModels from "./Component/useVModels/Parent.vue";
@@ -77,7 +79,9 @@ import UseVModels from "./Component/useVModels/Parent.vue";
   <!-- <UseTextSelection /> -->
   <!-- <UseUserMedia /> -->
 
-  <UseAnimate />
+  <!-- <UseAnimate /> -->
+  <!-- <UseInterval /> -->
+  <UseIntervalFn />
 
   <!-- <UseVModel /> -->
   <!-- <UseVModels /> -->
