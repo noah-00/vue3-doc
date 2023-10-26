@@ -40,6 +40,7 @@ import UseIntervalFn from "./Animation/UseIntervalFn.vue";
 
 import UseVModel from "./Component/useVModel/Parent.vue";
 import UseVModels from "./Component/useVModels/Parent.vue";
+import UseMounted from "./Component/useMounted.vue";
 </script>
 
 <template>
@@ -81,8 +82,9 @@ import UseVModels from "./Component/useVModels/Parent.vue";
 
   <!-- <UseAnimate /> -->
   <!-- <UseInterval /> -->
-  <UseIntervalFn />
+  <!-- <UseIntervalFn /> -->
 
   <!-- <UseVModel /> -->
   <!-- <UseVModels /> -->
+  <UseMounted />
 </template>
