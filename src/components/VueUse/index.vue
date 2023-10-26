@@ -41,6 +41,8 @@ import UseIntervalFn from "./Animation/UseIntervalFn.vue";
 import UseVModel from "./Component/useVModel/Parent.vue";
 import UseVModels from "./Component/useVModels/Parent.vue";
 import UseMounted from "./Component/useMounted.vue";
+
+import Until from "./Watch/Until.vue";
 </script>
 
 <template>
@@ -86,5 +88,7 @@ import UseMounted from "./Component/useMounted.vue";
 
   <!-- <UseVModel /> -->
   <!-- <UseVModels /> -->
-  <UseMounted />
+  <!-- <UseMounted /> -->
+
+  <Until />
 </template>
