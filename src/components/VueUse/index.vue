@@ -43,6 +43,7 @@ import UseVModels from "./Component/useVModels/Parent.vue";
 import UseMounted from "./Component/useMounted.vue";
 
 import Until from "./Watch/Until.vue";
+import WatchArray from "./Watch/WatchArray.vue";
 </script>
 
 <template>
@@ -90,5 +91,6 @@ import Until from "./Watch/Until.vue";
   <!-- <UseVModels /> -->
   <!-- <UseMounted /> -->
 
-  <Until />
+  <!-- <Until /> -->
+  <WatchArray />
 </template>
