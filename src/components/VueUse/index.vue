@@ -59,6 +59,11 @@ import UseArrayJoin from "./Array/UseArrayJoin.vue";
 // useArraySome
 // useArrayUnique
 import UseSorted from "./Array/UseSorted.vue";
+
+// useDateFormat
+// useTimeAgo
+
+import IsDefined from "./Utilities/IsDefined.vue";
 </script>
 
 <template>
@@ -111,5 +116,7 @@ import UseSorted from "./Array/UseSorted.vue";
 
   <!-- <UseArrayDifference /> -->
   <!-- <UseArrayJoin /> -->
-  <UseSorted />
+  <!-- <UseSorted /> -->
+
+  <IsDefined />
 </template>
