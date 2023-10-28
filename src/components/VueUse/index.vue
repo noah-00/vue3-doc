@@ -44,6 +44,8 @@ import UseMounted from "./Component/useMounted.vue";
 
 import Until from "./Watch/Until.vue";
 import WatchArray from "./Watch/WatchArray.vue";
+
+import UseArrayDifference from "./Array/UseArrayDifference.vue";
 </script>
 
 <template>
@@ -92,5 +94,7 @@ import WatchArray from "./Watch/WatchArray.vue";
   <!-- <UseMounted /> -->
 
   <!-- <Until /> -->
-  <WatchArray />
+  <!-- <WatchArray /> -->
+
+  <UseArrayDifference />
 </template>
