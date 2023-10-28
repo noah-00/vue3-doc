@@ -56,6 +56,9 @@ import UseArrayDifference from "./Array/UseArrayDifference.vue";
 // useArrayMap
 // useArrayReduce
 import UseArrayJoin from "./Array/UseArrayJoin.vue";
+// useArraySome
+// useArrayUnique
+import UseSorted from "./Array/UseSorted.vue";
 </script>
 
 <template>
@@ -107,5 +110,6 @@ import UseArrayJoin from "./Array/UseArrayJoin.vue";
   <!-- <WatchArray /> -->
 
   <!-- <UseArrayDifference /> -->
-  <UseArrayJoin />
+  <!-- <UseArrayJoin /> -->
+  <UseSorted />
 </template>
