@@ -64,6 +64,7 @@ import UseSorted from "./Array/UseSorted.vue";
 // useTimeAgo
 
 import IsDefined from "./Utilities/IsDefined.vue";
+import UseCycleList from "./Utilities/UseCycleList.vue";
 </script>
 
 <template>
@@ -118,5 +119,6 @@ import IsDefined from "./Utilities/IsDefined.vue";
   <!-- <UseArrayJoin /> -->
   <!-- <UseSorted /> -->
 
-  <IsDefined />
+  <!-- <IsDefined /> -->
+  <UseCycleList />
 </template>
