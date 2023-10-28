@@ -46,6 +46,16 @@ import Until from "./Watch/Until.vue";
 import WatchArray from "./Watch/WatchArray.vue";
 
 import UseArrayDifference from "./Array/UseArrayDifference.vue";
+// useArrayEvery
+// useArrayFilter
+// useArrayFind
+// useArrayFindIndex
+// useArrayFindLast
+// useArrayIncludes
+// useArrayJoin
+// useArrayMap
+// useArrayReduce
+import UseArrayJoin from "./Array/UseArrayJoin.vue";
 </script>
 
 <template>
@@ -96,5 +106,6 @@ import UseArrayDifference from "./Array/UseArrayDifference.vue";
   <!-- <Until /> -->
   <!-- <WatchArray /> -->
 
-  <UseArrayDifference />
+  <!-- <UseArrayDifference /> -->
+  <UseArrayJoin />
 </template>
